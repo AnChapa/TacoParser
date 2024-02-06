@@ -80,7 +80,7 @@ namespace LoggingKata
             Console.WriteLine("---------------------------\n");
 
             Console.WriteLine("The two Taco Bells with the widest distance between them are: ");
-            Console.WriteLine($"{taco1.Name} and {taco2.Name} with a distance of {dist} meters between them.");
+            Console.WriteLine($"{taco1.Name} and {taco2.Name} with a distance of {dist/ 1609.344} miles between them.");
 
 
 
